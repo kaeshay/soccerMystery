@@ -12,7 +12,8 @@
 }
 #ball{
 	position:absolute;
-	left:2000px;
+	left:500px;
+	top:500px;
 }
 #grass{
 	position:absolute;
