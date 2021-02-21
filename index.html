@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Emile's Stadium</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<link rel="stylesheet" type="text/css" href="styles/positions.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+	<style>
+	</style>
+</head>
+<body>
+	<div id="containment-wrapper">
+		<img id="grass" src="assets/stadium/grass.png">
+		<img id="bleachers" src="assets/stadium/bleachers.png">
+		<img id="field" src="assets/stadium/inside.png">
+	</div>
+	<img id="sparkles" class="draggable room" src="assets/stadium/sparkles.gif">
+	<div id="players">
+		<img class="draggable avatar" src="assets/stadium/1.png">
+		<img class="draggable avatar" src="assets/stadium/2.png">
+		<img class="draggable avatar" src="assets/stadium/3.png">
+		<img class="draggable avatar" src="assets/stadium/4.png">
+		<img class="draggable avatar" src="assets/stadium/5.png">
+		<img class="draggable avatar" src="assets/stadium/6.png">
+		<img class="draggable avatar" src="assets/stadium/7.png">
+		<img class="draggable avatar" src="assets/stadium/8.png">
+		<img class="draggable avatar" src="assets/stadium/9.png">
+		<img class="draggable avatar" src="assets/stadium/10.png">
+		<img class="draggable avatar" src="assets/stadium/11.png">
+		<img class="draggable avatar" src="assets/stadium/12.png">
+		<img class="draggable avatar" src="assets/stadium/13.png">
+		<img class="draggable avatar" src="assets/stadium/14.png">
+		<img id="soccer-princess" class="draggable avatar" ondblclick="transform('emile','soccer-princess')" src="assets/stadium/soccer-princess.png">
+		<img class="draggable avatar" src="assets/stadium/referee.png">
+	</div>
+	<img id="owner" class="draggable big-item" src="assets/avatars/owner.png">
+	<div class="avatars">
+		<img id="draggable" class="wide-avatar" src="assets/avatars/carl.png">
+		<img id="draggable" class="avatar" src="assets/avatars/mars.png">
+		<img id="draggable" class="avatar" src="assets/avatars/emile.png">
+		<img id="draggable" class="avatar" src="assets/avatars/noname.png">
+		<img id="draggable" class="avatar" src="assets/avatars/george.png">
+		<img id="draggable" class="wide-avatar" src="assets/avatars/cecilia.png">
+		<img id="draggable" class="avatar" src="assets/avatars/paloma.png">
+		<img id="draggable" class="avatar" src="assets/avatars/preeya.png">
+		<img id="draggable" class="wide-avatar" src="assets/avatars/orange-dinosaur.png">
+		<img id="draggable" class="wide-avatar" src="assets/avatars/stella.png">
+		<img id="draggable" class="wide-avatar" src="assets/avatars/teagan.png">
+		<img id="draggable" class="avatar" src="assets/avatars/ze.png">
+		<img id="draggable" class="wide-avatar" src="assets/avatars/zoe.png">
+		<img id="draggable" class="avatar" src="assets/avatars/mogui.png">
+	</div>
+	<img id="ball" class="draggable item" src="assets/stadium/ball.png">
+	<div id="gifts">
+			<img ondblclick="lightOff()" class="draggable medium-item" src="assets/gifts/omari1.png">
+			<a href="assets/gifts/zoe.mov">
+			<img class="draggable item" src="assets/boxes/1.png"></a>
+			<a href="pages/stellaGift.html">
+			<img class="draggable item" src="assets/boxes/2.png"></a>
+			<a href="assets/gifts/stellaSoccer.png">
+			<img class="draggable item" src="assets/boxes/3.png"></a>
+			<a href="assets/gifts/zoe.png">
+			<img class="draggable item" src="assets/boxes/4.png"></a>
+
+			<a href="assets/gifts/bagel.png">
+			<img class="draggable item" src="assets/boxes/5.png"></a>
+			<a href="assets/gifts/sparkle.png">
+			<img class="draggable item" src="assets/boxes/6.png"></a>
+			<a href="assets/gifts/strawberry.png">
+			<img class="draggable item" src="assets/boxes/7.png"></a>
+			<a href="assets/gifts/mice.png">
+			<img class="draggable item" src="assets/boxes/8.png"></a>
+			<a href="assets/gifts/duckie.png">
+			<img class="draggable item" src="assets/boxes/9.png"></a>
+			<a href="assets/gifts/rui.jpeg">
+			<img class="draggable item" src="assets/boxes/10.png"></a>
+			<a href="assets/gifts/teagan.jpg">
+			<img class="draggable item" src="assets/boxes/1.png"></a>
+			<a href="assets/gifts/ze.pdf">
+			<img class="draggable item" src="assets/boxes/2.png"></a>
+			<a href="assets/gifts/rui2.jpg">
+			<img class="draggable item" src="assets/boxes/3.png"></a>
+			<img id="draggable" class="avatar" src="assets/avatars/nini.png">
+			<img id="draggable" class="avatar" src="assets/avatars/soccer-storekeeper.png">
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="scripts/draggable.js"></script>
+<script type="text/javascript" src="scripts/toggle.js"></script>
+</html>

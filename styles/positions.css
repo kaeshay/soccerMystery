@@ -1,0 +1,46 @@
+
+#players{
+	position:absolute;
+	top:320px;
+	left:350px;
+	width:600px;
+}
+#owner{
+	position:absolute;
+	top:300px;
+	left:20px;
+}
+#ball{
+	position:absolute;
+	left:2000px;
+}
+#grass{
+	position:absolute;
+	width:2000px;
+}
+#bleachers{
+	position:absolute;
+	left:100px;
+	width:1000px;
+}
+
+#players img{
+	margin-top:-60px;
+	margin-right:20px;
+}
+#field{
+	position:absolute;
+	top:300px;
+	left:300px;
+	width:600px;
+}
+#sparkles{
+	position:absolute;
+	left:200px;
+	display:none;
+}
+#gifts{
+	position:absolute;
+	top:800px;
+	left:100px;
+}
